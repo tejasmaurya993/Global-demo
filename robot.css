@@ -1,0 +1,70 @@
+marquee{
+    font-size: 20px;
+}
+.circle{
+    height: 150px;
+    width: 150px;
+    background-image: linear-gradient(yellow, black);
+    border: 2px solid black;
+    border-radius: 50%;
+    background-blend-mode: luminosity;
+    margin: 0px 0px 0px 475px ;
+    animation: alter 0s infinite;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 0.20s;
+    cursor: pointer;
+}
+@keyframes alter{
+    
+    from{ background-image: linear-gradient( rgb(239, 60, 11), rgb(65, 16, 213)); }
+    to{background-image: linear-gradient(rgb(89, 244, 112), rgb(243, 60, 19));}
+}
+.left-dish-1{
+    height: 30px;
+    width: 100px;
+    background-image: linear-gradient(green, blue);
+    border: 2px solid black;
+    background-blend-mode: luminosity;
+    margin: -19px 0px 20px  350px;  
+}
+.dish{
+    height: 150px;
+    width: 150px;
+    background-image: linear-gradient(green, blue);
+    border: 2px solid black;
+    background-blend-mode: luminosity;
+    margin:  -50px 0px 0px 475px;  
+}
+.right-dish-2{
+    height: 30px;
+    width: 100px;
+    background-image: linear-gradient(green, blue);
+    border: 2px solid black;
+    background-blend-mode: luminosity;
+    margin: -155px 0px 0px 650px;
+}
+.left-dish-3{
+    height: 140px;
+    width: 30px;
+    background-image: linear-gradient(green, blue);
+    border: 2px solid black;
+    background-blend-mode: luminosity;
+    margin:  132px 0px 0px 475px;
+}
+.right-dish-4{
+    height: 140px;
+    width: 30px;
+    background-image: linear-gradient(green, blue);
+    border: 2px solid black;
+    background-blend-mode: luminosity;
+    margin:  -143px 0px 0px 595px;
+}
+input{
+    background-color: rgb(248, 244, 244);
+    width: 80px;
+    margin-top: 65px;
+    margin-left: 30px;
+    color: red;
+    font-weight: bold;
+}
